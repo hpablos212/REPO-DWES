@@ -24,7 +24,8 @@ public class inicioServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		String nombre = request.getParameter("nombre");
+		response.getWriter().append("Bienvenid@ ").append(nombre);
 	}
 
 	/**
