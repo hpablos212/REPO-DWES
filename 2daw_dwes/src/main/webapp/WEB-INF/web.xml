@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>inicioServlet</display-name>
-    <servlet-name>inicioServlet</servlet-name>
-    <servlet-class>proyecto.inicioServlet</servlet-class>
+    <display-name>controlador</display-name>
+    <servlet-name>controlador</servlet-name>
+    <servlet-class>proyecto.controlador</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>inicioServlet</servlet-name>
-    <url-pattern>/inicio</url-pattern>
+    <servlet-name>controlador</servlet-name>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>
